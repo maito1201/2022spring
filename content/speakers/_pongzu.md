@@ -3,7 +3,7 @@ key: _pongzu
 id: _pongzu
 name: pongzu
 company: Kanmu Inc
-photoURL: /images/speakers/_pongzu.jpg
+photoURL: /images/speakers/_pongzu.png
 socials:
 - icon: twitter
   link: https://twitter.com/_pongzu

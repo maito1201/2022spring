@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	"io"
+	"log"
 	"os"
 	"path/filepath"
 	"strings"
@@ -31,11 +32,29 @@ type Social struct {
 	Name string
 }
 
+const imageDirPath = "static/images/speakers"
+
 func createSpeaker(ss []*Speaker) {
 	wd, err := os.Getwd()
 	if err != nil {
 		panic(err)
 	}
+
+	files, err := os.ReadDir(imageDirPath)
+	if err != nil {
+		panic(err)
+	}
+
+	photoURLMap := make(map[string]string, len(ss))
+	for _, f := range files {
+		baseName := f.Name()
+		key := strings.TrimSuffix(baseName, filepath.Ext(baseName))
+		if photoURLMap[key] != "" {
+			log.Fatalf("multiple files found for key: %s", key)
+		}
+		photoURLMap[key] = baseName
+	}
+
 	dirPath := filepath.Join(wd, "content/speakers")
 	for _, s := range ss {
 		if s.Twitter != "" {
@@ -52,7 +71,8 @@ func createSpeaker(ss []*Speaker) {
 				Name: s.Site,
 			})
 		}
-		s.PhotoURL = fmt.Sprintf("/images/speakers/%s.jpg", s.Key)
+
+		s.PhotoURL = fmt.Sprintf("/images/speakers/%s", photoURLMap[s.Key])
 		err = os.MkdirAll(dirPath, os.ModePerm)
 		if err != nil {
 			panic(err)
