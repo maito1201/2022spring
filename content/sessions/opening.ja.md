@@ -5,4 +5,4 @@ id: opening
 format: organize
 draft: false
 ---
-Opening talk.
+オープニングトークです。

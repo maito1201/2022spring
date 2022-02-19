@@ -5,3 +5,4 @@ id: closing
 format: organize
 draft: false
 ---
+Closing talk.
