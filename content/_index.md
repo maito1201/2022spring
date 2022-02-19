@@ -61,7 +61,7 @@ icon="right" %}}
 {{% /home-tickets %}}
 
 <!--
-{{% partners categories="gold,silver,bronze,green" %}}
+{{% partners categories="platinum,gold,silver,bronze,free" %}}
 # Partners
 {{% /partners %}}
 -->
