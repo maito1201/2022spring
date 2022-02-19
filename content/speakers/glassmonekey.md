@@ -3,7 +3,7 @@ key: glassmonekey
 id: glassmonekey
 name: glassmonkey (Shunsuke Nagano)
 company: BASE, inc
-photoURL: /images/speakers/glassmonekey.jpg
+photoURL: /images/speakers/glassmonekey.png
 socials:
 - icon: twitter
   link: https://twitter.com/glassmonekey

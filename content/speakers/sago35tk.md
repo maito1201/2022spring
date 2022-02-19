@@ -3,7 +3,7 @@ key: sago35tk
 id: sago35tk
 name: sago35
 company: ""
-photoURL: /images/speakers/sago35tk.jpg
+photoURL: /images/speakers/sago35tk.png
 socials:
 - icon: twitter
   link: https://twitter.com/sago35tk
