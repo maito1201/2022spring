@@ -52,7 +52,13 @@
   row:
     start: 11
     end: 13
-- key: lunch
+- key: a-lunch
+  start: "12:00"
+  duration: 70
+  row:
+    start: 13
+    end: 20
+- key: b-lunch
   start: "12:00"
   duration: 70
   row:
@@ -268,7 +274,7 @@
   row:
     start: 60
     end: 61
-- key: afterparty
+- key: after-party
   start: "18:55"
   duration: 60
   row:
