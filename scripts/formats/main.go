@@ -11,15 +11,15 @@ import (
 	"gopkg.in/yaml.v2"
 )
 
-type Category struct {
+type Format struct {
 	Key  string `csv:"key"`
 	Name string `csv:"name"`
 	ID   string `csv:"id"`
 }
 
-const fileName = "categories"
+const fileName = "formats"
 
-func createCategory(c []*Category) {
+func generate(c []*Format) {
 	wd, err := os.Getwd()
 	if err != nil {
 		panic(err)
@@ -55,9 +55,9 @@ func main() {
 	}
 	defer f.Close()
 
-	var categories []*Category
-	if err := gocsv.UnmarshalFile(f, &categories); err != nil {
+	var formats []*Format
+	if err := gocsv.UnmarshalFile(f, &formats); err != nil {
 		panic(err)
 	}
-	createCategory(categories)
+	generate(formats)
 }
