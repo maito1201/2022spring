@@ -15,3 +15,4 @@ generate-yml:
 	go run ./scripts/partners/main.go
 	go run ./scripts/slots/main.go
 	go run ./scripts/formats/main.go
+	go run ./scripts/rooms/main.go
