@@ -63,6 +63,10 @@
   text-transform: none;
 }
 
+.partners-group .partner {
+    padding: 0;
+}
+
 .talk .complexity:before {
     content: "Level : ";
 }
