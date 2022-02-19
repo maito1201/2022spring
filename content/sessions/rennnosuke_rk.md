@@ -1,0 +1,25 @@
+---
+key: rennnosuke_rk
+title: Let's contribute to OSS with Go
+id: rennnosuke_rk
+format: conference
+talkType: challenge_session
+level: Beginner
+tags: []
+speakers:
+- rennnosuke_rk
+videoId: null
+presentation: null
+draft: false
+---
+I'll talk about what I noticed when I contributed to Go OSS for the first time, and 'Why' and 'Why Not' contribute to OSS (in English).
+
+The target audience is as follows - 1-2 year Go experience. Who has no contribution to OSS. Who want to contribute to OSS.
+---
+I would like to talk about contribution to OSS, especially with Go.
+
+- 'Why' and 'Why Not' I contributed to OSS
+- What I noticed about contribution to OSS
+- What I got through the contribution to OSS
+
+About a month ago, I modified OSS repository with Go for the first time. I realized some important points about contributing. So, from this experience, I would like to talk about what I noticed when I contributed, especially when I modified the Go code.
