@@ -1,0 +1,30 @@
+---
+key: sivchari
+title: database/sqlパッケージを理解する
+id: sivchari
+format: conference
+talkType: short_session
+level: Intermediate
+tags: []
+speakers:
+- sivchari
+videoId: null
+presentation: null
+draft: false
+---
+私たちはdatabase/sqlと好きなdatabaseのdriverをimportすることで、とても簡単にGoとdatabaseの通信をすることができるようになります。
+とても便利ですが、なぜdatabaseのdriverはblank importをするだけでDBの種類を識別できているのでしょうか。
+また、Goのdatabase/sqlはgoroutineで複数接続しても安全に処理することができますが、どのように制御しているのでしょうか。
+このトークを聞くことにより、普段何気なく行っていたdatabase/sqlの仕組みを理解した上でアプリケーションを実装することができるようになります。
+---
+Goの標準パッケージの1つにdatabase/sqlというパッケージが存在します。
+このパッケージはwebアプリケーションをGoで開発したことがある方なら、おそらく一度は触れたことがあるパッケージではないでしょうか。
+GoとDBを用いた多くのサンプルコードを見ると、今回の主題であるdatabase/sqlと、接続対象のdatabase driverをimportしていると思います。
+さらに注目すると、接続対象のdatabase driverはblank importをしているだけです。
+今回のトークではこのdatabase/sqlを支える仕組みについて話します。
+
+今回のトークでは簡易的なサンプルコードを交えながら進めていきます。そのため実際に書いたことがあるケースを想定しやすく、理解を進めやすくします。
+前半では、database/sqlのソースコードを見ていくことで、どのようにしてGoのdatabase/sqlパッケージはDBとの接続を表現しているのかということと、なぜblank importをするだけで良いのかということを学ぶことができます。
+
+そして、database/sqlは標準で内部にコネクションプールを保持しており、スレッドセーフ(goroutineセーフ)であると説明されています。
+後半ではどのようにdatabase/sqlはコネクションプールを保持し、複数のgoroutineからのアクセスに対してスレッドセーフ(goroutineセーフ)を実現しているかについて説明します。
