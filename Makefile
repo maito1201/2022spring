@@ -12,3 +12,4 @@ download:
 generate-yml:
 	go run ./scripts/categories/main.go
 	go run ./scripts/partners/main.go
+	go run ./scripts/slots/main.go
