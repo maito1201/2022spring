@@ -1,4 +1,4 @@
-key,label,description,url
-track-a,Track A,Remo - Track A,
-track-b,Track B,Remo - Track B,
-remo,Remo,Remo,
+key,label,order,description,url
+track-a,Track A,1,Remo - Track A,
+track-b,Track B,2,Remo - Track B,
+remo,Remo,3,Remo,

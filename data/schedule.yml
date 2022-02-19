@@ -1,0 +1,103 @@
+- day: "2022-04-23"
+  start: "10:00"
+  rooms:
+  - room: track-a
+    slots:
+    - slot: opening
+      talk: opening
+    - slot: a1-c
+      talk: dummy
+    - slot: a2-c
+      talk: dummy
+    - slot: a-break-1
+      talk: break
+    - slot: a3-l
+      talk: dummy
+    - slot: a4-s
+      talk: dummy
+    - slot: a-lunch
+      talk: lunch
+    - slot: b-lunch
+      talk: lunch
+    - slot: a5-c
+      talk: dummy
+    - slot: a6-c
+      talk: dummy
+    - slot: a-break-2
+      talk: break
+    - slot: a7-l
+      talk: dummy
+    - slot: a8-s
+      talk: dummy
+    - slot: a-break-3
+      talk: break
+    - slot: a9-s
+      talk: dummy
+    - slot: a10-s
+      talk: dummy
+    - slot: a11-s
+      talk: dummy
+    - slot: a-break-4
+      talk: break
+    - slot: a12-s
+      talk: dummy
+    - slot: a13-s
+      talk: dummy
+    - slot: a14-s
+      talk: dummy
+    - slot: a-break-5
+      talk: break
+    - slot: lt1
+      talk: dummy
+    - slot: lt2
+      talk: dummy
+    - slot: lt3
+      talk: dummy
+    - slot: lt4
+      talk: dummy
+    - slot: lt5
+      talk: dummy
+    - slot: lt6
+      talk: dummy
+    - slot: lt7
+      talk: dummy
+    - slot: lt8
+      talk: dummy
+    - slot: closing
+      talk: closing
+  - room: track-b
+    slots:
+    - slot: b-break-1
+      talk: break
+    - slot: b3-l
+      talk: dummy
+    - slot: b4-s
+      talk: dummy
+    - slot: b-break-2
+      talk: break
+    - slot: b7-l
+      talk: dummy
+    - slot: b8-s
+      talk: dummy
+    - slot: b-break-3
+      talk: break
+    - slot: b9-s
+      talk: dummy
+    - slot: b10-s
+      talk: dummy
+    - slot: b11-s
+      talk: dummy
+    - slot: b-break-4
+      talk: break
+    - slot: b12-s
+      talk: dummy
+    - slot: b13-s
+      talk: dummy
+    - slot: b14-s
+      talk: dummy
+    - slot: b-break-5
+      talk: break
+  - room: remo
+    slots:
+    - slot: after-party
+      talk: after-party
