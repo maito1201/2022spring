@@ -3,7 +3,6 @@ title: Partners
 menu:
   main:
     weight: 20
-draft: true # TODO: 公開する際はfalseにする
 ---
 
 {{% hero %}}
