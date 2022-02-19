@@ -62,7 +62,7 @@ func main() {
 	defer f.Close()
 
 	var partners []*Partner
-	if err := gocsv.UnmarshalFile(f, &partners); err != nil { // Load clients from file
+	if err := gocsv.UnmarshalFile(f, &partners); err != nil {
 		panic(err)
 	}
 
