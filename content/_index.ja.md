@@ -60,12 +60,10 @@ icon="right" %}}
 {{% /home-tickets %}}
 
 
-<!--
-{{% partners categories="platinum,gold,silver,bronze,free" %}}
+{{% partners categories="platinum,gold,silver,bronze" %}}
 # スポンサー
 
 {{% /partners %}}
--->
 
 <div style="text-align: center; margin-bottom: 20px;">
 
