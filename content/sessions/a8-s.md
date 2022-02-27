@@ -8,6 +8,7 @@ level: Intermediate
 tags: []
 speakers:
 - sivchari
+partner: null
 videoId: null
 presentation: null
 draft: false

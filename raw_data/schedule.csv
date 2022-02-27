@@ -1,7 +1,7 @@
 room,room_order,slot,talk
 track-a,1,opening,opening
-track-a,1,a1-c,dummy
-track-a,1,a2-c,dummy
+track-a,1,a1-c,a1-c
+track-a,1,a2-c,a2-c
 track-a,1,a-break-1,break
 track-b,2,b-break-1,break
 track-a,1,a3-l,a3-l
@@ -10,8 +10,8 @@ track-a,1,a4-s,a4-s
 track-b,2,b4-s,b4-s
 track-a,1,a-lunch,lunch
 track-a,1,b-lunch,lunch
-track-a,1,a5-c,dummy
-track-a,1,a6-c,dummy
+track-a,1,a5-c,a5-c
+track-a,1,a6-c,a6-c
 track-a,1,a-break-2,break
 track-b,2,b-break-2,break
 track-a,1,a7-l,a7-l

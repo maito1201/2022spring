@@ -8,6 +8,7 @@ level: All
 tags: []
 speakers:
 - glassmonekey
+partner: null
 videoId: null
 presentation: null
 draft: false

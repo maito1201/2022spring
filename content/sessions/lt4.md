@@ -8,6 +8,7 @@ level: All
 tags: []
 speakers:
 - 8kka
+partner: null
 videoId: null
 presentation: null
 draft: false

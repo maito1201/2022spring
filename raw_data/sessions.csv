@@ -496,3 +496,7 @@ a10-s,testingパッケージを使ったWebアプリケーションテスト（�
 b13-s,Go で始める将棋AI,mururururu,conference,Short Session (20 minutes),short_session,Intermediate,,mururururu,,false,,,"近年、将棋AIの実力は人間を凌駕するようになりました。
 このセッションでは将棋AIのベースとなるアルゴリズムや将棋ソフトの実装で用いられるプロトコルなどを紹介し、私の実装をベースにそれらを Go で実装する方法を紹介します。","近年、将棋AIの実力は人間を凌駕するようになりました。
 このセッションでは将棋AIのベースとなるアルゴリズムや将棋ソフトの実装で用いられるプロトコルなどを紹介し、私の実装をベースにそれらを Go で実装する方法を紹介します。"
+a1-c,株式会社ビットキー / Bitkey Inc.,bitkey,conference,Sponsor Session,sponsor_session,,,,bitkey,false,,,,
+a2-c,株式会社ヤプリ,yappli,conference,Sponsor Session,sponsor_session,,,,yappli,false,,,,
+a5-c,株式会社バニッシュ・スタンダード,v-standard,conference,Sponsor Session,sponsor_session,,,,v-standard,false,,,,
+a6-c,クラスター株式会社,cluster,conference,Sponsor Session,sponsor_session,,,,cluster,false,,,,

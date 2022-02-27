@@ -8,6 +8,7 @@ level: Intermediate
 tags: []
 speakers:
 - convto
+partner: null
 videoId: null
 presentation: null
 draft: false

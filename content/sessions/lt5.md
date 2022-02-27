@@ -8,6 +8,7 @@ level: Intermediate
 tags: []
 speakers:
 - awakot_56
+partner: null
 videoId: null
 presentation: null
 draft: false
