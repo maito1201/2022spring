@@ -8,6 +8,7 @@ level: Intermediate
 tags: []
 speakers:
 - hikyaru_suzuki
+partner: ""
 videoId: null
 presentation: null
 draft: false

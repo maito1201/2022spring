@@ -8,6 +8,7 @@ level: Intermediate
 tags: []
 speakers:
 - lestrrat
+partner: ""
 videoId: null
 presentation: null
 draft: false

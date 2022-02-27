@@ -8,6 +8,7 @@ level: Advanced
 tags: []
 speakers:
 - kazuhisa_takei
+partner: ""
 videoId: null
 presentation: null
 draft: false

@@ -8,6 +8,7 @@ level: Intermediate
 tags: []
 speakers:
 - _pongzu
+partner: ""
 videoId: null
 presentation: null
 draft: false

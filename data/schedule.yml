@@ -6,9 +6,9 @@
     - slot: opening
       talk: opening
     - slot: a1-c
-      talk: dummy
+      talk: a1-c
     - slot: a2-c
-      talk: dummy
+      talk: a2-c
     - slot: a-break-1
       talk: break
     - slot: a3-l
@@ -20,9 +20,9 @@
     - slot: b-lunch
       talk: lunch
     - slot: a5-c
-      talk: dummy
+      talk: a5-c
     - slot: a6-c
-      talk: dummy
+      talk: a6-c
     - slot: a-break-2
       talk: break
     - slot: a7-l

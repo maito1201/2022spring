@@ -8,6 +8,7 @@ level: All
 tags: []
 speakers:
 - yyoshiki41
+partner: ""
 videoId: null
 presentation: null
 draft: false

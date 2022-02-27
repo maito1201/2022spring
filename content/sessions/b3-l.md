@@ -8,6 +8,7 @@ level: All
 tags: []
 speakers:
 - yoheimuta
+partner: ""
 videoId: null
 presentation: null
 draft: false

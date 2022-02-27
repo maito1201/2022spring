@@ -20,6 +20,7 @@ type Session struct {
 	Tags         []string
 	Speaker      string `csv:"speaker" yaml:"-"`
 	Speakers     []string
+	Partner      string  `csv:"partner"`
 	VideoID      *string `csv:"videoId" yaml:"videoId"`
 	Presentation *string `csv:"presentation"`
 	Draft        bool
