@@ -13,8 +13,6 @@ videoId: null
 presentation: null
 draft: false
 ---
-埋め込み型のlinux kernel のようなdoubly linked list を実装しだしたら、lock free にしたくなり、そのまま sync.Map に勝つべく, hash map を実装していたらしらないうちに ほぼskip list なhash map を実装するまでの顛末
----
 # lock free な hash map  を実装するまでの顛末
 
 1. container/list  がメモリを食いすぎるので、 linux kernel のLIST_HEADベースのdoubly linked list 実装をgolang でした

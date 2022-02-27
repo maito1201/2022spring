@@ -58,9 +58,7 @@ func generateSession(session *Session, dirPath string) {
 
 	body := fmt.Sprintf(`---
 %s---
-%s
----
-%s`, string(out), session.Abstract, session.Description)
+%s`, string(out), session.Description)
 
 	_, err = f.WriteString(body)
 	if err != nil {
