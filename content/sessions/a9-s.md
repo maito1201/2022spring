@@ -1,5 +1,5 @@
 ---
-key: yyoshiki41
+key: a9-s
 title: GoでAPI クライアントの実装
 id: yyoshiki41
 format: conference

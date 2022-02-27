@@ -1,5 +1,5 @@
 ---
-key: glassmonekey
+key: lt2
 title: Python製の姓名分割ライブラリをGoに移植した話
 id: glassmonekey
 format: conference

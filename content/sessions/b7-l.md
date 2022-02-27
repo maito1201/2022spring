@@ -1,5 +1,5 @@
 ---
-key: ryushi
+key: b7-l
 title: Go で RDB に SQL でアクセスするためのライブラリ Kra の紹介
 id: ryushi
 format: conference

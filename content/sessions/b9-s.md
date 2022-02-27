@@ -1,5 +1,5 @@
 ---
-key: lestrrat
+key: b9-s
 title: GoらしいAPIを求める旅路 並行処理編
 id: lestrrat
 format: conference

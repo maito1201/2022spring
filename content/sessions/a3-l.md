@@ -1,5 +1,5 @@
 ---
-key: jespinog
+key: a3-l
 title: Dissecting Slices, Maps and Channels in Go
 id: jespinog
 format: conference

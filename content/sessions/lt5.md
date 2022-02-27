@@ -1,5 +1,5 @@
 ---
-key: awakot_56
+key: lt5
 title: GoとKubernetesを用いたバッチ開発のすすめ
 id: awakot_56
 format: conference

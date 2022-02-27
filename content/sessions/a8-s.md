@@ -1,5 +1,5 @@
 ---
-key: sivchari
+key: a8-s
 title: database/sqlパッケージを理解する
 id: sivchari
 format: conference

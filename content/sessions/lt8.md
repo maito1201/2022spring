@@ -1,5 +1,5 @@
 ---
-key: __syumai
+key: lt8
 title: Go言語仕様輪読会の開催を通じた振り返り
 id: __syumai
 format: conference

@@ -1,5 +1,5 @@
 ---
-key: convto
+key: lt7
 title: Go runtime の歩き方
 id: convto
 format: conference

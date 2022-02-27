@@ -1,5 +1,5 @@
 ---
-key: riita10069
+key: b8-s
 title: 「自動コード生成ツール」を20分で作れるようになろう
 id: riita10069
 format: conference

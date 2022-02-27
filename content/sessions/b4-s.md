@@ -1,5 +1,5 @@
 ---
-key: kazuhisa_takei
+key: b4-s
 title: lock free な doubly linked list を実装していたらいつのまにか concurrent skip list map を実装していたでござる
 id: kazuhisa_takei
 format: conference
