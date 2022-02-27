@@ -18,3 +18,4 @@ generate-yml:
 	go run ./scripts/formats/main.go
 	go run ./scripts/rooms/main.go
 	go run ./scripts/schedule/main.go
+	go run ./scripts/sessions/main.go

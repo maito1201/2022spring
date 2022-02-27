@@ -1,5 +1,5 @@
 ---
-key: hikyaru_suzuki
+key: a7-l
 title: 高速で統一的な自動生成ツールをprotocプラグインとして実装した話
 id: hikyaru_suzuki
 format: conference

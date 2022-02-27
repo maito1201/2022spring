@@ -1,5 +1,5 @@
-key,title,id,format,raw_talkType,talkType,level,tags,speaker,partner,allroom,videoId,presentation,abstract,description
-luccafort,Motto Go Forward Goを支える文化とコミュニティ 〜なぜ我々はコミュニティにコントリビュートするのか？〜,luccafort,conference,Challenge Session (20 minutes),challenge_session,Beginner,,luccafort,,false,,,"まず最初にこのLTは技術の話ではありません。
+key,title,id,format,raw_talkType,talkType,level,tag,speaker,partner,allroom,videoId,presentation,abstract,description
+b14-s,Motto Go Forward Goを支える文化とコミュニティ 〜なぜ我々はコミュニティにコントリビュートするのか？〜,luccafort,conference,Challenge Session (20 minutes),challenge_session,Beginner,,luccafort,,false,,,"まず最初にこのLTは技術の話ではありません。
 Goは素晴らしいプログラミング言語ですが、それは技術だけが素晴らしいことを意味しません。
 それを支える開発者、そして暖かく迎えてくれるコミュニティの存在と文化が大きく影響していると考えます。
 コロナ禍によってさまざまなコミュニティが栄枯盛衰しているいまだからこそ、Goが大事にする文化を継承してもらいたいと考えました。
@@ -9,7 +9,7 @@ Goには素晴らしい技術と同じくらい素晴らしいコミュニティ
 我々運営者はなぜ各コミュニティを作り、運営しているのでしょうか？
 インターネットで繋がれる現代においてわざわざGo当地というローカルな制約を設けるのはなぜ？
 本LTは１Go当地コミュニティ運営者がGoCon運営して感じたGoが大事にするウェットな文化とMotto Go Forwardを実現するため、Goに関わる全てのひとへ向けた技術以外の大切なことの紹介です。"
-sivchari,database/sqlパッケージを理解する,sivchari,conference,Short Session (20 minutes),short_session,Intermediate,,sivchari,,false,,,"私たちはdatabase/sqlと好きなdatabaseのdriverをimportすることで、とても簡単にGoとdatabaseの通信をすることができるようになります。
+a8-s,database/sqlパッケージを理解する,sivchari,conference,Short Session (20 minutes),short_session,Intermediate,,sivchari,,false,,,"私たちはdatabase/sqlと好きなdatabaseのdriverをimportすることで、とても簡単にGoとdatabaseの通信をすることができるようになります。
 とても便利ですが、なぜdatabaseのdriverはblank importをするだけでDBの種類を識別できているのでしょうか。
 また、Goのdatabase/sqlはgoroutineで複数接続しても安全に処理することができますが、どのように制御しているのでしょうか。
 このトークを聞くことにより、普段何気なく行っていたdatabase/sqlの仕組みを理解した上でアプリケーションを実装することができるようになります。","Goの標準パッケージの1つにdatabase/sqlというパッケージが存在します。
@@ -23,7 +23,7 @@ GoとDBを用いた多くのサンプルコードを見ると、今回の主題�
 
 そして、database/sqlは標準で内部にコネクションプールを保持しており、スレッドセーフ(goroutineセーフ)であると説明されています。
 後半ではどのようにdatabase/sqlはコネクションプールを保持し、複数のgoroutineからのアクセスに対してスレッドセーフ(goroutineセーフ)を実現しているかについて説明します。"
-riita10069,「自動コード生成ツール」を20分で作れるようになろう,riita10069,conference,Short Session (20 minutes),short_session,Beginner,,riita10069,,false,,,"皆さんは、普段からGo言語でコードを書いていると思います。
+b8-s,「自動コード生成ツール」を20分で作れるようになろう,riita10069,conference,Short Session (20 minutes),short_session,Beginner,,riita10069,,false,,,"皆さんは、普段からGo言語でコードを書いていると思います。
 「いつも同じようなプログラムだから自動生成したいな」と感じることはありませんか？
 
 例えば、
@@ -105,7 +105,7 @@ https://github.com/spf13/afero
 https://github.com/bradleyjkemp/cupaloy
 https://github.com/dave/jennifer
 "
-yoheimuta,ゼロから作る Protocol Buffer のパーサーとレキサー,yoheimuta,conference,Long Session (40 minutes),long_session,All,,yoheimuta,,false,,,インタプリタやコンパイラの基礎になる字句解析器（lexer）と構文解析器（parser）の実装はgoyaccなどのジェネレーターを使うか手書きするかの基本二択になります。goyaccに関する実践的な情報は多いですが学習カーブが伴います。私はProtocolBufferスキーマ定義ファイルのパーサーとレキサーをGoの標準パッケージだけで実装しました。ASTを標準出力するだけでなくVisitorパターンを導入すると使い勝手が増します。これらの知識は普段使う静的解析ツールのカスタマイズにも役立ちます。本セッションでは実際に動く最小構成の実装からはじめてGoでのプログラミング手法をご紹介します。,"Go 言語がチームでの開発に採用される理由の一つに型があることによる可読性や開発効率の向上があります。
+b3-l,ゼロから作る Protocol Buffer のパーサーとレキサー,yoheimuta,conference,Long Session (40 minutes),long_session,All,,yoheimuta,,false,,,インタプリタやコンパイラの基礎になる字句解析器（lexer）と構文解析器（parser）の実装はgoyaccなどのジェネレーターを使うか手書きするかの基本二択になります。goyaccに関する実践的な情報は多いですが学習カーブが伴います。私はProtocolBufferスキーマ定義ファイルのパーサーとレキサーをGoの標準パッケージだけで実装しました。ASTを標準出力するだけでなくVisitorパターンを導入すると使い勝手が増します。これらの知識は普段使う静的解析ツールのカスタマイズにも役立ちます。本セッションでは実際に動く最小構成の実装からはじめてGoでのプログラミング手法をご紹介します。,"Go 言語がチームでの開発に採用される理由の一つに型があることによる可読性や開発効率の向上があります。
 一方で、型の表現力を補うために、Go 言語のエコシステムには、バイナリディストリビューションに含まれる vet コマンドや静的解析の自作を容易にする準標準ライブラリ golang.org/x/tools/go/analysis [1] があります。
 また、大規模システムのトレンドに目を移すと、安定化や生産性を向上させるために、静的解析ツールを駆使した事例はあとを絶ちません。
 GitHub では MySQL のパーティション対応をするために SQL linter を開発して Rails システムの安全な移行を実現しました[2]。国内では GREE が既存システムの AST からコードを自動生成する Rector というツールを使うことで、機能開発を止めない PHP フレームワーク移行を実現しました[3]。また DeNA の SWET チームはアーキテクチャを段階的に変更する場合に自作した Android Lint を使って、新規に追加されるコードに修正対象となる実装が含まれない仕組みを自動化しているという知見を共有しました[4]。
@@ -133,7 +133,7 @@ GitHub では MySQL のパーティション対応をするために SQL linter 
 - [8] Lexical Scanning in Go: https://talks.golang.org/2011/lex.slide
 - [9] Compilers: Principles, Techniques, and Tools, 2nd Edition: https://www.pearson.com/us/higher-education/program/Aho-Compilers-Principles-Techniques-and-Tools-2nd-Edition/PGM167067.html
 - [10] Design Patterns: Elements of Reusable Object-Oriented Software: https://www.oreilly.com/library/view/design-patterns-elements/0201633612/"
-kazuhisa_takei,lock free な doubly linked list を実装していたらいつのまにか concurrent skip list map を実装していたでござる,kazuhisa_takei,conference,Short Session (20 minutes),short_session,Advanced,,kazuhisa_takei,,false,,,"埋め込み型のlinux kernel のようなdoubly linked list を実装しだしたら、lock free にしたくなり、そのまま sync.Map に勝つべく, hash map を実装していたらしらないうちに ほぼskip list なhash map を実装するまでの顛末","# lock free な hash map  を実装するまでの顛末
+b4-s,lock free な doubly linked list を実装していたらいつのまにか concurrent skip list map を実装していたでござる,kazuhisa_takei,conference,Short Session (20 minutes),short_session,Advanced,,kazuhisa_takei,,false,,,"埋め込み型のlinux kernel のようなdoubly linked list を実装しだしたら、lock free にしたくなり、そのまま sync.Map に勝つべく, hash map を実装していたらしらないうちに ほぼskip list なhash map を実装するまでの顛末","# lock free な hash map  を実装するまでの顛末
 
 1. container/list  がメモリを食いすぎるので、 linux kernel のLIST_HEADベースのdoubly linked list 実装をgolang でした
 2. lock free な実装への変更時に　通常は delete 時のmarking の回収をtraverse 時に行わずに実装した
@@ -143,7 +143,7 @@ kazuhisa_takei,lock free な doubly linked list を実装していたらいつ�
 6. hash 関数よってkey がきれいに平坦化されるため実質敵な平衡なskip list 実装になった
 
  "
-makki_d,型パラメータが使えるようになったのでLINQを実装してみた,makki_d,conference,Short Session (20 minutes),short_session,Intermediate,,makki_d,,false,,,"Go 1.18にて型パラメータ（ジェネリクス）が利用できるようになりました。（なったはずです、なりましたよね？）
+a12-s,型パラメータが使えるようになったのでLINQを実装してみた,makki_d,conference,Short Session (20 minutes),short_session,Intermediate,,makki_d,,false,,,"Go 1.18にて型パラメータ（ジェネリクス）が利用できるようになりました。（なったはずです、なりましたよね？）
 この新しい機能を利用してLINQ（言語統合クエリ）を実装してみます。
 
 LINQは.Net Framework 3.5で導入された、様々なコレクションに対する操作を標準的な方法で行うための言語機能です。
@@ -180,7 +180,7 @@ GoでLINQを実装するには、型パラメータを使ってコレクショ�
 
 LINQの実装ような実践的な型パラメータの使い方を見ることで、みなさんがより効果的に型パラメータを使えるようになることを望みます。
 "
-rennnosuke_rk,Let's contribute to OSS with Go,rennnosuke_rk,conference,Challenge Session (20 minutes),challenge_session,Beginner,,rennnosuke_rk,,false,,,"I'll talk about what I noticed when I contributed to Go OSS for the first time, and 'Why' and 'Why Not' contribute to OSS (in English).
+a13-s,Let's contribute to OSS with Go,rennnosuke_rk,conference,Challenge Session (20 minutes),challenge_session,Beginner,,rennnosuke_rk,,false,,,"I'll talk about what I noticed when I contributed to Go OSS for the first time, and 'Why' and 'Why Not' contribute to OSS (in English).
 
 The target audience is as follows - 1-2 year Go experience. Who has no contribution to OSS. Who want to contribute to OSS.","I would like to talk about contribution to OSS, especially with Go.
 
@@ -189,8 +189,8 @@ The target audience is as follows - 1-2 year Go experience. Who has no contribut
 - What I got through the contribution to OSS
 
 About a month ago, I modified OSS repository with Go for the first time. I realized some important points about contributing. So, from this experience, I would like to talk about what I noticed when I contributed, especially when I modified the Go code."
-jespinog,"Dissecting Slices, Maps and Channels in Go",jespinog,conference,Long Session (40 minutes),long_session,Intermediate,,jespinog,,false,,,"My talk is about how slices, maps and channels work in the Go runtime. The idea is to use unsafe to extract the memory state on runtime and analyze how that is changing over time when you operate with the slices, maps and channels. We will see how channel buffers or maps buckets work under the hood.","Slices, Maps and Channels in go, are first class citizens of the language, they are used widely in our day to day work, but... do you know how they works under the hood? Do you know the implications of adding elements to an slice, or new keys to a map? Do you know why you can't relay in maps order? Do you know how channels handle the buffer or the blocked goroutines? If you don't know about that, this is your talk. I going to access the go runtime memory state of the maps, slices and channels, and show you how they evolve over time while we change them."
-uji_rb,GoのGC(garbage collector)について理解する,uji_rb,conference,Short Session (20 minutes),short_session,All,,uji_rb,,false,,,"GoのGCの仕組みや設計思想を解説します。
+a3-l,"Dissecting Slices, Maps and Channels in Go",jespinog,conference,Long Session (40 minutes),long_session,Intermediate,,jespinog,,false,,,"My talk is about how slices, maps and channels work in the Go runtime. The idea is to use unsafe to extract the memory state on runtime and analyze how that is changing over time when you operate with the slices, maps and channels. We will see how channel buffers or maps buckets work under the hood.","Slices, Maps and Channels in go, are first class citizens of the language, they are used widely in our day to day work, but... do you know how they works under the hood? Do you know the implications of adding elements to an slice, or new keys to a map? Do you know why you can't relay in maps order? Do you know how channels handle the buffer or the blocked goroutines? If you don't know about that, this is your talk. I going to access the go runtime memory state of the maps, slices and channels, and show you how they evolve over time while we change them."
+a4-s,GoのGC(garbage collector)について理解する,uji_rb,conference,Short Session (20 minutes),short_session,All,,uji_rb,,false,,,"GoのGCの仕組みや設計思想を解説します。
 聴講者には、ランタイムの一機能であるGCについて触れてもらうことを通して、Goのランタイムの世界に興味をもってもらうことができます。","GoにはGC(garbage collector)が存在します。
 このGCが内部でメモリ管理の複雑さを隠蔽してくれているおかげで、Goを書くエンジニアはメモリ管理をあまり意識せずコーディングすることができます。
 GCは実際にどのように動いて私たちを助けてくれているのでしょうか？
@@ -211,7 +211,7 @@ GCの目的、責務について説明
 - Goが採用しているGCアルゴリズムの解説
 - Go GCの仕組みから学ぶ設計思想解説
 - 他言語とのアプローチ比較"
-glassmonekey,Python製の姓名分割ライブラリをGoに移植した話,glassmonekey,conference,Lightning Talk (5 minutes),lt_session,All,,glassmonekey,,false,,,"一般的にわかち書きでは無い日本語で姓名から「姓＋名」の分割を行うことは困難です。
+lt2,Python製の姓名分割ライブラリをGoに移植した話,glassmonekey,conference,Lightning Talk (5 minutes),lt_session,All,,glassmonekey,,false,,,"一般的にわかち書きでは無い日本語で姓名から「姓＋名」の分割を行うことは困難です。
 しかし、Python製の姓名分割ライブラリ(https://github.com/rskmoi/namedivider-python)を用いるとある程度精度良く分割は可能です。
 そこでシングルバイナリで扱えるGoのメリットを活かして、Python製の姓名分割ライブラリをGoに移植した話をします。
 その際移植で工夫した点や気をつけた点をお話します。","一般的にわかち書きでは無い日本語で姓名から「姓＋名」の分割を行うことは非常に困難です。
@@ -221,7 +221,7 @@ glassmonekey,Python製の姓名分割ライブラリをGoに移植した話,glas
 
 そこで、シングルバイナリで扱えるGoのメリットを活かしてGoに移植した話をします。
 その際移植で工夫した点や気をつけた点などをお話します。"
-convto,Go runtime の歩き方,convto,conference,Lightning Talk (5 minutes),lt_session,Intermediate,,convto,,false,,,"ある程度 Go での開発経験をつむと、 goroutine や channel の動作原理を知るために Go の runtime パッケージのソースを読みたいことがあると思います。
+lt7,Go runtime の歩き方,convto,conference,Lightning Talk (5 minutes),lt_session,Intermediate,,convto,,false,,,"ある程度 Go での開発経験をつむと、 goroutine や channel の動作原理を知るために Go の runtime パッケージのソースを読みたいことがあると思います。
 
 しかし Go の runtime は plan9 ベースのアセンブリでの実装があったり、他ではあまり見かけない compiler directive を使用していたり、 所見だと built in 関数の名称がわからなかったり、前知識なしにコードが追いづらいです。
 
@@ -229,7 +229,7 @@ convto,Go runtime の歩き方,convto,conference,Lightning Talk (5 minutes),lt_s
 Go runtime では plan9 ベースのアセンブリでの実装や、各種 compiler directive を使った実装があります。
 また、所見では built in 関数の名称がわからなかったりなど、前知識がないとコードが追いづらいです。
 そこで、 Go runtime を読む上で把握しておくとコードが読みやすくなるような知識をまとめることで、 Go runtime に興味のある Go ユーザーの最初の一歩を手助けします。"
-_pongzu,外部コマンドの実行を含む関数のテスト,_pongzu,conference,Lightning Talk (5 minutes),lt_session,Intermediate,,_pongzu,,false,,,Goではos/execが提供するCmd構造体が持つRun()メソッドを通じて簡単に外部コマンドを実行することが可能です。この処理をテスト時にモックに差し替える方法について様々なアプローチがありますが、標準パッケージ(os/exec_test.go)が実践していた方法がとても面白いと思いました。テスト実行時にテスト自身のバイナリを利用して外部コマンドの実行だけをモック化し、任意の結果を返すexec.Cmd構造体を作成する方法（トリック？）について説明し、それを応用して実際にユニットテストをしてみた話をしたいと思います。,"## アジェンダ
+lt3,外部コマンドの実行を含む関数のテスト,_pongzu,conference,Lightning Talk (5 minutes),lt_session,Intermediate,,_pongzu,,false,,,Goではos/execが提供するCmd構造体が持つRun()メソッドを通じて簡単に外部コマンドを実行することが可能です。この処理をテスト時にモックに差し替える方法について様々なアプローチがありますが、標準パッケージ(os/exec_test.go)が実践していた方法がとても面白いと思いました。テスト実行時にテスト自身のバイナリを利用して外部コマンドの実行だけをモック化し、任意の結果を返すexec.Cmd構造体を作成する方法（トリック？）について説明し、それを応用して実際にユニットテストをしてみた話をしたいと思います。,"## アジェンダ
 - 自己紹介
 - `exec_test.go`の実装について
    - `go test`の簡単な仕組み
@@ -244,7 +244,7 @@ _pongzu,外部コマンドの実行を含む関数のテスト,_pongzu,conferenc
 
 ## サンプルコード
 https://github.com/pongzu/testing-exec-sample"
-ryushi,Go で RDB に SQL でアクセスするためのライブラリ Kra の紹介,ryushi,conference,Long Session (40 minutes),long_session,Intermediate,,ryushi,,false,,,Go で PostgreSQL を使ったアプリケーションを実装する際に、単一のトランザクション内で通常の SQL を発行すると共に CopyFrom を使ったバルクインサートができるDBアクセスライブラリKraを紹介します。,"# Go で RDB に SQL でアクセスするためのライブラリ Kra の紹介
+b7-l,Go で RDB に SQL でアクセスするためのライブラリ Kra の紹介,ryushi,conference,Long Session (40 minutes),long_session,Intermediate,,ryushi,,false,,,Go で PostgreSQL を使ったアプリケーションを実装する際に、単一のトランザクション内で通常の SQL を発行すると共に CopyFrom を使ったバルクインサートができるDBアクセスライブラリKraを紹介します。,"# Go で RDB に SQL でアクセスするためのライブラリ Kra の紹介
 
 Go で PostgreSQL を使ったアプリケーションを実装する際に、単一のトランザクション内で通常の SQL を発行すると共に CopyFrom を使ったバルクインサートをしたいと思ったことはありませんか？
 
@@ -291,18 +291,18 @@ Kra の思想を理解することで、そのまま使うだけでなくご自�
 
 ### 実行時型情報のキャッシュ
 "
-nsega,The introduction of my way to learn Go together with Go community.,nsega,conference,Challenge Session (20 minutes),challenge_session,All,,nsega,,false,,,"I will share how I had chosen to learn Go together with my Go community, keeping in mind the advantages and disadvantages in each case, based on my learning curve from when I first started learning Go. I will explain the advantages and disadvantages in each case through practical experience.","I am now developing and operating microservices at Mercari, Inc., using Go as my primary development language.
+a14-s,The introduction of my way to learn Go together with Go community.,nsega,conference,Challenge Session (20 minutes),challenge_session,All,,nsega,,false,,,"I will share how I had chosen to learn Go together with my Go community, keeping in mind the advantages and disadvantages in each case, based on my learning curve from when I first started learning Go. I will explain the advantages and disadvantages in each case through practical experience.","I am now developing and operating microservices at Mercari, Inc., using Go as my primary development language.
 
 I have started using Go for the first time since I started working at Mercari. To deepen my understanding of Go, I learned many things while participating in various Go communities.
 I have got used to developing with Go. And leading the team's development, presenting at internal Go study sessions, and organizing ""mercari.go"", a Go study session as a meetup.
 
 In this session, I will share how I have chosen to learn with the Go community, keeping in mind the pros and cons of each case based on my learning curve since I started learning Go."
-rytswd,Go Module with Microservices and Monorepo: Clear Dependencies with Ease of Development,rytswd,conference,Short Session (20 minutes),short_session,All,,rytswd,,false,,,"Go Module is certainly an integral part of the Go ecosystem today. But perhaps because of its relatively recent inception, it can be confusing how to integrate with some specific needs. In this talk, we'll see how Go module can work extremely well with microservices and monorepo.","Go Module is great. It allows simple development workflow, without too much prior knowledge of `GOPATH` or anything special. When you start your new Go project, the first thing is to run `go mod init github.com/me/myrepo`, and you are all set. It just works. But when you try to do something a bit more involved, such as having a private repository, having a monorepo with many modules, or both, it can be confusing how to wire up all the dependencies.
+b11-s,Go Module with Microservices and Monorepo: Clear Dependencies with Ease of Development,rytswd,conference,Short Session (20 minutes),short_session,All,,rytswd,,false,,,"Go Module is certainly an integral part of the Go ecosystem today. But perhaps because of its relatively recent inception, it can be confusing how to integrate with some specific needs. In this talk, we'll see how Go module can work extremely well with microservices and monorepo.","Go Module is great. It allows simple development workflow, without too much prior knowledge of `GOPATH` or anything special. When you start your new Go project, the first thing is to run `go mod init github.com/me/myrepo`, and you are all set. It just works. But when you try to do something a bit more involved, such as having a private repository, having a monorepo with many modules, or both, it can be confusing how to wire up all the dependencies.
 
 In this talk, we will take a quick look at some implementation details of Go Module, and some key concepts such as `GOPRIVATE` environment variable and the like.
 
 From there, we will work our way up to setting up a monorepo with handful of microservices, in a private repository, and with our own domain. We will look at how dependency management is made clear and easy with such setup."
-yyoshiki41,GoでAPI クライアントの実装,yyoshiki41,conference,Short Session (20 minutes),short_session,All,,yyoshiki41,,false,,,"HTTP APIクライアントの実践的な実装方法を紹介します。
+a9-s,GoでAPI クライアントの実装,yyoshiki41,conference,Short Session (20 minutes),short_session,All,,yyoshiki41,,false,,,"HTTP APIクライアントの実践的な実装方法を紹介します。
 外部HTTP APIの抽象化、使いやすいものにするためのノウハウを紹介したいと思います。","HTTP APIクライアントの実践的な実装方法を紹介します。
 
 - 標準的なHTTPリクエストメソッドの汎用的な実装方法
@@ -310,8 +310,8 @@ yyoshiki41,GoでAPI クライアントの実装,yyoshiki41,conference,Short Sess
 - multipart/form-data への対応
 - エラー時のレスポンスハンドリング
 - logger や http.Client の拡張性の確保 - swagger など、IDLからのコード生成"
-saicologic,GoとLambdaを使用した高パフォーマンスでサーバレスなマイクロサービスの開発と運用,saicologic,conference,Short Session (20 minutes),short_session,Beginner,,saicologic,,false,,,2018年にAWSLambda上でgoランタイムが使えるようになってから3年がたちました。他のランタイムに比べてまだまだGoでの実装事例が少なく、Lambdaの開発に採用していいのか、他に比べてパフォマンスは良いのか気になる方がいるのではないでしょうか？実際にSendgridのメール配信のイベント結果をWebhookで収集した時の事例をお話します。,メール配信SaaSのSendgridのWebhookをAPIGateway + Lambda + Goで実装した事例紹介です。メール配信の不達の理由を特定するためにメールログを記録する仕組みに採用しました。いままでLambdaの開発にはNode.jsランタイムを利用していましたが、バックエンドの開発はGoが95%を締めており、サーバーレスもGoを利用することになり、実際に開発してみて他の人でもGoを採用するきっかけにしたいと思っています。また、API-Gateway + Lambda構成を前提として、公式SDKの、aws-lambda-goについても解説します
-hgsgtk,HTTP Tunneling in Go,hgsgtk,conference,Challenge Session (20 minutes),challenge_session,Intermediate,,hgsgtk,,false,,,"HTTP Tunneling can be used in situations similar to the requirements of using VPN, for example, to be able to access a localhost server from outside. This talk will introduce the specific implementation of HTTP tunneling and give audiences a deep knowledge of TCP and HTTP level implementation in Go.","While it is common to implement HTTP servers or proxies, there are probably few people who have ever implemented an HTTP-level tunnel.
+a11-s,GoとLambdaを使用した高パフォーマンスでサーバレスなマイクロサービスの開発と運用,saicologic,conference,Short Session (20 minutes),short_session,Beginner,,saicologic,,false,,,2018年にAWSLambda上でgoランタイムが使えるようになってから3年がたちました。他のランタイムに比べてまだまだGoでの実装事例が少なく、Lambdaの開発に採用していいのか、他に比べてパフォマンスは良いのか気になる方がいるのではないでしょうか？実際にSendgridのメール配信のイベント結果をWebhookで収集した時の事例をお話します。,メール配信SaaSのSendgridのWebhookをAPIGateway + Lambda + Goで実装した事例紹介です。メール配信の不達の理由を特定するためにメールログを記録する仕組みに採用しました。いままでLambdaの開発にはNode.jsランタイムを利用していましたが、バックエンドの開発はGoが95%を締めており、サーバーレスもGoを利用することになり、実際に開発してみて他の人でもGoを採用するきっかけにしたいと思っています。また、API-Gateway + Lambda構成を前提として、公式SDKの、aws-lambda-goについても解説します
+b10-s,HTTP Tunneling in Go,hgsgtk,conference,Challenge Session (20 minutes),challenge_session,Intermediate,,hgsgtk,,false,,,"HTTP Tunneling can be used in situations similar to the requirements of using VPN, for example, to be able to access a localhost server from outside. This talk will introduce the specific implementation of HTTP tunneling and give audiences a deep knowledge of TCP and HTTP level implementation in Go.","While it is common to implement HTTP servers or proxies, there are probably few people who have ever implemented an HTTP-level tunnel.
 
 HTTP Tunneling can be used in situations similar to the requirements of using a VPN, for example, to be able to access a localhost server from outside. 
 
@@ -332,7 +332,7 @@ The following technical issues and solutions will be explained while showing Go 
 - ...etc
 
 This talk will provide time to learn basic concepts not limited to Go, such as TCP, HTTP, WebSocket, etc..., as well as Go implementation under a little bit complex requirements at the intermediate level and above."
-sago35tk,IoT with TinyGo,sago35tk,conference,Short Session (20 minutes),short_session,Intermediate,,sago35tk,,false,,,"昨今の組込分野では IoT というキーワードで `つながるデバイス` の魅力が高まっています。
+b12-s,IoT with TinyGo,sago35tk,conference,Short Session (20 minutes),short_session,Intermediate,,sago35tk,,false,,,"昨今の組込分野では IoT というキーワードで `つながるデバイス` の魅力が高まっています。
 `つながるデバイス` の場合、何らかのネットワークへの接続が必須となります。
 
 このセッションでは TinyGo を用いた Go 言語による IoT 対応デバイス作成例を示し、他の環境 (例えば C/C++ 相当の環境である Arduino など) との違い、長所短所について説明します。
@@ -375,7 +375,7 @@ TinyGo はマイコンや WASM などの Small Places 向けの Go Compiler で�
 * 組込マイコンで遊んだことが無い
 * TinyGo を使ったことが無い
 * 組込やるなら Go でやってみたい"
-lestrrat,GoらしいAPIを求める旅路 並行処理編,lestrrat,conference,Short Session (20 minutes),short_session,Intermediate,,lestrrat,,false,,,"Goではユーザは簡単にgoroutineを作成して使用することができます。
+b9-s,GoらしいAPIを求める旅路 並行処理編,lestrrat,conference,Short Session (20 minutes),short_session,Intermediate,,lestrrat,,false,,,"Goではユーザは簡単にgoroutineを作成して使用することができます。
 逆にライブラリ提供者はオブジェクトを提供した際にどのメソッドでも簡単に`go`キーワードをつけて実行されることを意識しないといけません。
 
 このトークでは「Goらしく」そしてさらに「並行処理を意識した」APIを備えたライブラリのデザインをする際に考えることなどを紹介します。","ライブラリコードを一度提供してしまうと、それをユーザがどう使うかは提供者側はほとんどコントロールできません。
@@ -396,7 +396,7 @@ lestrrat,GoらしいAPIを求める旅路 並行処理編,lestrrat,conference,Sh
 のについて解説しつつ、GoらしいAPIをデザインする考え方について語ります
 
 "
-yuji_shimada,Goの標準機能で簡易システムを低コストで作成するテクニック,yuji_shimada,conference,Lightning Talk (5 minutes),lt_session,Beginner,,yuji_shimada,,false,,,"Goによるゲーム開発のプロジェクトにて、Go標準の機能を複数活用し、実装コストの低いデバッグツール開発基盤を作成しました。
+lt1,Goの標準機能で簡易システムを低コストで作成するテクニック,yuji_shimada,conference,Lightning Talk (5 minutes),lt_session,Beginner,,yuji_shimada,,false,,,"Goによるゲーム開発のプロジェクトにて、Go標準の機能を複数活用し、実装コストの低いデバッグツール開発基盤を作成しました。
 本セッションのデバッグツールとは、動作確認やデバッグのため、ユーザーのレベル操作や所持アイテムの増減等、データの状態を操作・参照するAPI群、及びwebツールを指します。
 デバッグツールの拡充は、ゲームに限らず様々な分野で成果物の品質に直結しますが、ドメイン固有のロジック実装に集中するためにはより低コストで開発できることが望ましいです。
 本セッションでは、低コストで開発を行えるデバッグツール基盤をどのように実現したのかを紹介します。","本セッションでは、「Goの標準機能の組み合わせにより、低い実装コストで簡易なシステムを作成するテクニック」を共有します。
@@ -408,7 +408,7 @@ yuji_shimada,Goの標準機能で簡易システムを低コストで作成す�
 開発支援ツール等の周辺システムの作成は、メインのドメインロジックの実装に比べて優先度が下がってしまう傾向にあります。そのため、メンテナンスがされなかったり、そもそも実装自体が行われなかったりといった状況に陥りがちです。
 
 本セッションを通じて、2021年6月リリースのスマートフォン向けゲームアプリ「IDOLY PRIDE」にて、interfaceやstruct tag、reflectionを駆使して実装コストの低いデバッグツール開発基盤を作成した事例を紹介しながら、それらの機能の使い方を見直します。"
-hikyaru_suzuki,高速で統一的な自動生成ツールをprotocプラグインとして実装した話,hikyaru_suzuki,conference,Long Session (40 minutes),long_session,Intermediate,,hikyaru_suzuki,,false,,,"Go言語には総称型が実装されていないためコードを自動生成して賄うことが多いです。
+a7-l,高速で統一的な自動生成ツールをprotocプラグインとして実装した話,hikyaru_suzuki,conference,Long Session (40 minutes),long_session,Intermediate,,hikyaru_suzuki,,false,,,"Go言語には総称型が実装されていないためコードを自動生成して賄うことが多いです。
 
 ここで自動生成のソースをGo言語自体とした場合、よくある手法としてreflectパッケージによる生成が行われますが、ソースが多いと実効速度がネックとなってしまいます。 また、StructTagを活用したオプション設定は便利ですが、文字列による設定なのでタイプミスも発生します。
 
@@ -417,7 +417,7 @@ hikyaru_suzuki,高速で統一的な自動生成ツールをprotocプラグイ�
 今回は私の開発した、「protocプラグインを活用した自動生成フレームワークとそれを用いた自動生成ツール」について紹介します。 自動生成ツールの元となる定義はProtocolBuffersですが、実装アイデアはProtocolBuffersに依存したものではなく、JSON SchemaやFlat Buffers、独自のスキーマ定義など、あらゆる定義で応用が可能です。
 
 今回開発した自動生成フレームワークの実装、そして私が所属するプロジェクトにおけるこの自動生成ツールを用いた開発フローを皆さんに共有します。大規模開発における自動生成手法の実践的な例を示すとともに、自動生成において今すぐ使える小技やテクニック、注意するべきことなどについても解説します。 さらに、ProtocolBuffersとprotocプラグインが自動生成ツールの実装における選択肢の一つになれば幸いです。"
-8kka,大規模ゲーム開発におけるContext活用パターン,8kka,conference,Lightning Talk (5 minutes),lt_session,All,,8kka,,false,,,"GoのContextではリクエストスコープの値を伝播する事ができます。
+lt4,大規模ゲーム開発におけるContext活用パターン,8kka,conference,Lightning Talk (5 minutes),lt_session,All,,8kka,,false,,,"GoのContextではリクエストスコープの値を伝播する事ができます。
 主な利用例として認証トークンを伝搬させる手法がありますが、ゲーム開発においては他にも様々なContextの利用方法があります。
 
 このトークでは大規模ゲーム開発で利用しているContextの活用パターンについてお話しします。
@@ -435,12 +435,12 @@ Contextでリクエストスコープの値を伝播する用途としては、�
 
 これらの実装手法について共有し、時間があれば課金情報やビジネスロジックで発生する
 ステータス管理をContextで行う手法についても共有する予定です。"
-awakot_56,GoとKubernetesを用いたバッチ開発のすすめ,awakot_56,conference,Lightning Talk (5 minutes),lt_session,Intermediate,,awakot_56,,false,,,"私の所属する会社では、多くのGoを採用する企業も同じように、APIなどのアプリケーションはほぼ全てGo言語で書かれており、Kubernetes上で管理されています。 
+lt5,GoとKubernetesを用いたバッチ開発のすすめ,awakot_56,conference,Lightning Talk (5 minutes),lt_session,Intermediate,,awakot_56,,false,,,"私の所属する会社では、多くのGoを採用する企業も同じように、APIなどのアプリケーションはほぼ全てGo言語で書かれており、Kubernetes上で管理されています。 
 そのため定期的に実行するバッチに関しても同じようにGoとKubernetesで管理したい！と思うようになり、元々Javaで書かれていたバッチの多くをGo言語で書くようになりました。その経験の中で得たGo言語でバッチを開発してKuberntes上で動かす手法やTipsを共有いたします。","CLI開発向けに作成されているcobra（https://github.com/spf13/cobra
 ）というGoライブラリを用いた簡単かつ自由度の高いCLIの作成方法とそれをDockernizeしてKubernetes上で実行する部分までを解説します。
 そして、その中で得た、リトライ設計や大量データの更新をする際のコミット分割など、バッチ開発ならではの知見を共有すると共に、Goでバッチ開発を行うメリットを説明します。
 "
-yebis0942,"Gopher, Chrome, Automation in 5min",yebis0942,conference,Lightning Talk (5 minutes),lt_session,All,,yebis0942,,false,,,"みなさんウェブブラウザ自動化してますか？どんなライブラリを使ってますか？Go言語には有力なGoogle Chromeの自動化ライブラリがいくつもあることをご存知ですか？
+lt6,"Gopher, Chrome, Automation in 5min",yebis0942,conference,Lightning Talk (5 minutes),lt_session,All,,yebis0942,,false,,,"みなさんウェブブラウザ自動化してますか？どんなライブラリを使ってますか？Go言語には有力なGoogle Chromeの自動化ライブラリがいくつもあることをご存知ですか？
 
 このトークでは、APIデザインに着目してそれぞれライブラリの差異と工夫を紹介します。
 
@@ -458,7 +458,7 @@ yebis0942,"Gopher, Chrome, Automation in 5min",yebis0942,conference,Lightning Ta
 * ブラウザ自動化という広く知られたトピックを通して「Goらしい」APIデザインの理解が深まる
 
 ということをゴールとします。"
-__syumai,Go言語仕様輪読会の開催を通じた振り返り,__syumai,conference,Lightning Talk (5 minutes),lt_session,All,,__syumai,,false,,,"Go Language Specification輪読会と言う、Goの言語仕様を読む勉強会を1年半に渡って開催し、2021年12月についに仕様の最後まで読み終えることが出来ました。
+lt8,Go言語仕様輪読会の開催を通じた振り返り,__syumai,conference,Lightning Talk (5 minutes),lt_session,All,,__syumai,,false,,,"Go Language Specification輪読会と言う、Goの言語仕様を読む勉強会を1年半に渡って開催し、2021年12月についに仕様の最後まで読み終えることが出来ました。
 この1年半までの間の活動や、メンバーによるGoの言語仕様への貢献、勉強会に伴って開発したツールの紹介を行います。
 また、開催を続けるにあたって、うまくいったこと、あまりうまくいかなかったことについてお話しします。
 リモート主体のコミュニティ活動の一例として参考にしていただければと思います。","Go Language Specification輪読会は、Goの言語仕様に興味のある人を集めて開催したリモートのみでの勉強会です。
@@ -481,7 +481,7 @@ __syumai,Go言語仕様輪読会の開催を通じた振り返り,__syumai,confe
 ## 開催を続けるにあたって、うまくいったこと、あまりうまくいかなかったこと
 
 * 1年半と言う短くない期間、開催を継続できた理由について振り返り、反省点も挙げます。"
-budougumi0617,testingパッケージを使ったWebアプリケーションテスト（単体テストからE2Eテストまで）,budougumi0617,conference,Short Session (20 minutes),short_session,Intermediate,,budougumi0617,,false,,,"ソフトウェアとテストは切っても切れない関係です。
+a10-s,testingパッケージを使ったWebアプリケーションテスト（単体テストからE2Eテストまで）,budougumi0617,conference,Short Session (20 minutes),short_session,Intermediate,,budougumi0617,,false,,,"ソフトウェアとテストは切っても切れない関係です。
 いっぽう、Webアプリケーション開発においてはDBなどのミドルウェア・外部API・永続化情報の状態など様々な依存関係が存在します。
 本セッションではDBや外部APIに依存するコードの単体テストからテスト中にWebサーバやDBを起動するシミュレーションテストまで、
 私がtestingパッケージを使って行なっている様々なレベルのテストについて紹介します。","Goは標準パッケージとしてtestingパッケージやテストを補助するパッケージが数多く用意されています。
@@ -493,6 +493,6 @@ budougumi0617,testingパッケージを使ったWebアプリケーションテ�
 - 外部リソースへの依存をモックするテスト
 - HTTPリクエストをモックするハンドラー向けテスト
 - DBなどを用意し、テスト対象のコードをサーバとして起動するバックエンド向けE2Eテスト"
-mururururu,Go で始める将棋AI,mururururu,conference,Short Session (20 minutes),short_session,Intermediate,,mururururu,,false,,,"近年、将棋AIの実力は人間を凌駕するようになりました。
+b13-s,Go で始める将棋AI,mururururu,conference,Short Session (20 minutes),short_session,Intermediate,,mururururu,,false,,,"近年、将棋AIの実力は人間を凌駕するようになりました。
 このセッションでは将棋AIのベースとなるアルゴリズムや将棋ソフトの実装で用いられるプロトコルなどを紹介し、私の実装をベースにそれらを Go で実装する方法を紹介します。","近年、将棋AIの実力は人間を凌駕するようになりました。
 このセッションでは将棋AIのベースとなるアルゴリズムや将棋ソフトの実装で用いられるプロトコルなどを紹介し、私の実装をベースにそれらを Go で実装する方法を紹介します。"

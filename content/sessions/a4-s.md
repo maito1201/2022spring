@@ -1,5 +1,5 @@
 ---
-key: uji_rb
+key: a4-s
 title: GoのGC(garbage collector)について理解する
 id: uji_rb
 format: conference

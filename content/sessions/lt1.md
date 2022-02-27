@@ -1,5 +1,5 @@
 ---
-key: yuji_shimada
+key: lt1
 title: Goの標準機能で簡易システムを低コストで作成するテクニック
 id: yuji_shimada
 format: conference
