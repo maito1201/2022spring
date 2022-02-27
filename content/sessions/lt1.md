@@ -8,7 +8,7 @@ level: Beginner
 tags: []
 speakers:
 - yuji_shimada
-partner: ""
+partner: null
 videoId: null
 presentation: null
 draft: false

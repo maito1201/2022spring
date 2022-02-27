@@ -20,8 +20,7 @@ type Session struct {
 	Tags         []string
 	Speaker      string `csv:"speaker" yaml:"-"`
 	Speakers     []string
-	Partner      *string  `csv:"partner"`
-
+	Partner      *string `csv:"partner"`
 	VideoID      *string `csv:"videoId" yaml:"videoId"`
 	Presentation *string `csv:"presentation"`
 	Draft        bool
@@ -47,6 +46,9 @@ func generateSession(session *Session, dirPath string) {
 	}
 	if *session.Presentation == "" {
 		session.Presentation = nil
+	}
+	if *session.Partner == "" {
+		session.Partner = nil
 	}
 
 	out, err := yaml.Marshal(session)

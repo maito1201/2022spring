@@ -8,7 +8,7 @@ level: All
 tags: []
 speakers:
 - __syumai
-partner: ""
+partner: null
 videoId: null
 presentation: null
 draft: false

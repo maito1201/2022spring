@@ -8,7 +8,7 @@ level: All
 tags: []
 speakers:
 - yebis0942
-partner: ""
+partner: null
 videoId: null
 presentation: null
 draft: false

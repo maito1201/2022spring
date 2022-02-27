@@ -8,7 +8,7 @@ level: Beginner
 tags: []
 speakers:
 - riita10069
-partner: ""
+partner: null
 videoId: null
 presentation: null
 draft: false

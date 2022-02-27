@@ -8,7 +8,7 @@ level: All
 tags: []
 speakers:
 - uji_rb
-partner: ""
+partner: null
 videoId: null
 presentation: null
 draft: false
