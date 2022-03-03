@@ -25,7 +25,6 @@ type Session struct {
 	Presentation *string `csv:"presentation"`
 	Draft        bool
 	Abstract     string `csv:"abstract" yaml:"-"`
-	Description  string `csv:"description" yaml:"-"`
 }
 
 func generateSession(session *Session, dirPath string) {
@@ -58,7 +57,7 @@ func generateSession(session *Session, dirPath string) {
 
 	body := fmt.Sprintf(`---
 %s---
-%s`, string(out), session.Description)
+%s`, string(out), session.Abstract)
 
 	_, err = f.WriteString(body)
 	if err != nil {
